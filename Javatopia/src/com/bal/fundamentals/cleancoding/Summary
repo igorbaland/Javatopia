@@ -1,0 +1,6 @@
+- Clean Coding
+- Refactoring
+> changing structure of the code without changing it's behavior
+> keep your methods short(5-10 lines, and no more 20 lines)
+> extract repetitive patterns
+> extract highly related statements
