@@ -1,0 +1,5 @@
+- exceptions (checked, runtime, error)
+- try/catch blocks
+- the throw keyword
+- custom exceptions
+- chaining exceptions
