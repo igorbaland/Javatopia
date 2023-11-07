@@ -1,0 +1,15 @@
+With generics we can create general purpose classes and methods that can work with DIFFERENT TYPES of OBJECTS.
+    > generic classes/methods
+Generics are very common in Java. A lot of built in classes and interfaces in Java are generic.
+
+When we compile a generic class, the Java compiler will erase the generic type parameter and replace it with an actual
+class.
+    > type erasure
+        > BY DEFAULT, it will use the OBJECT class
+            > unless we are adding a CONSTRAINT parameter
+We can apply constraints using the
+    > EXTENDS keyword
+        > this will ensure that we can only use the given TYPE or its SUBTYPES as a generic type argument.
+We also talked about
+    > WILDCARD
+        > with wildcards, we  can cast generic types.
