@@ -1,0 +1,27 @@
+We use the
+    > COLLECTION interface to represent
+        > a collection of objects to support
+            > add
+            > remove
+            > get operations
+In a collection, we cannot access elements by their
+    > INDEX
+
+This LIST interface
+    > extends the collection interface and gives us that additional functionality
+
+The QUEUE interface represent a queue  of objects.
+    > We use ques to process jobs in the order we receive them
+
+The SET interface represents a UNIQUE list of values
+
+The MAP interface represents a set of key value pairs
+
+Interface               Implementation
+
+Collection              ArrayList
+List                    ArrayList
+Queue                   ArrayDeque
+Set                     HashSet
+Map                     HashMap
+
