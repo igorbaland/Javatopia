@@ -1,0 +1,11 @@
+- Lambda Expression
+  - like anonymous functions that we can pass
+    - functional interfaces
+      - is an interface with a single abstract method
+        - we can use to represent a function
+          - in java four different types of functional interfaces
+            - consumers
+            - suppliers
+            - functions
+            - predicates
+              - we can compose these interfaces to build more complex functions
