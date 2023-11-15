@@ -1,0 +1,20 @@
+Streams
+  allow us to process a collection of data in a
+    declarative way
+      this make our code clean and concise
+
+Various stream operations
+  mapping
+  filtering
+  slicing
+  sorting
+  reducing
+
+how to use
+  collectors
+    1. for collecting the result of a stream
+         into a data structure like
+           set
+           map and so on
+
+    2. to group or partition data
