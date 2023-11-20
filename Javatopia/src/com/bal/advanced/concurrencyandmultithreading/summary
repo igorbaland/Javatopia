@@ -1,0 +1,19 @@
+MULTI-THREADING application can do more in less time
+  but they are CHALLENGING TO BUILD.
+One of the problems in multi-threading application is
+  a RACE CONDITION,
+    which happens when MULTIPLE THREADS try to modify an object CONCURRENTLY,
+      we may get wrong RESULTs or our application crashed.
+Another problem in multi-threaded application is that a thread can change
+  an object , but the change may not visible to other threads
+    due the caching, we talked about various strategy's to
+      prevent this problem.
+        The strategy's were
+          confinement, which means not sharing data across threads
+          synchronization, which involves looking and makes your code run sequentially
+            try to avoid if we can!
+          atomic types, these types don't use locks, instead they use compare and swap technique
+            Great for implementing counters
+          partitioning, concurrent collections in java use this technique to allow multiple threads
+            access different segments or partitions concurrently.
+
