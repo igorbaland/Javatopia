@@ -1,0 +1,23 @@
+Most computers these days days have multi core processors
+  which can execute many tasks in parallel
+In this section, we are going to learn
+  how to write code that can leverage these multi core processors.
+    this makes your application
+      faster and more responsive
+We will start this section with a quick overview of
+  KEY TERMS AND CONCEPTS
+    such as processes and threads. We will talk about
+    WORKING WITH THREADS
+      starting
+      interrupting
+      pausing threads
+We will look at
+  CONCURRENCY ISSUES
+    such as race conditions and visibility problems.
+      These are the issues that can exist in all concurrent systems.
+        They are not specific to Java. We look at this problems and
+          then will learn various strategies to prevent them.
+  SYNCHRONIZATION
+  VOLATILE FIELDS
+  ATOMIC OBJECTS
+
